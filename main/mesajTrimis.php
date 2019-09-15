@@ -11,7 +11,7 @@
 		$mesaj=$_POST['mesaj'];
 				
 		$trimiteMesaj="INSERT INTO mesaje (Id_expeditor, Id_destinatar, mesaj) VALUES ( '$expeditor', '$destinatar', MD5('$mesaj') )";
-		$resultMesajNow = $conn->query($trimiteMesaj); // mysqli_query($conn,$newUserSQL);
+		$resultMesajNow = $conn->query($trimiteMesaj); 
 		if($resultMesajNow){
 			
 			header("Location: mesajTrimis.php ");
