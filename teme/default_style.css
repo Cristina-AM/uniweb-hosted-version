@@ -1,0 +1,156 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	font-size:large !IMPORTANT;
+	line-height:1.8em !IMPORTANT;
+	margin-bottom: 30px; 
+	padding-bottom:50px;
+}
+
+html,body{
+	min-height:100%;
+	border-width: bold;
+	display:block;
+	box-sizing: border-box;
+}
+
+.main-form {
+	border:0.2em solid #0087ff;
+	background-color: #cedfef;
+	padding:5px;
+	border-radius: 10px;
+	width: 60%;
+	margin: auto;
+}
+.main-form .form-control, .main-form .btn{
+		font-size:1.5rem !IMPORTANT;
+		padding:1px;
+}
+#inboxNav{
+	padding:0 !IMPORTANT;
+	justify-content:center !IMPORTANT;
+	width:40%;
+	margin:auto;
+}
+.profileForm{
+	text-align:left;
+	padding-left:5px;
+}
+
+.shortcuts{
+	padding:2px;
+	margin-bottom:15px;
+	text-align:center;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	width:120px;
+	clear:right;
+	float:right;
+	background-color:#7aadff;
+}
+.shortcuts:hover{
+	color:white;
+}
+.shortcuts a{
+	color:black;
+	font-size:20px;
+}
+.nav-item:hover{
+	background-color:#7aadff;
+	color:white;
+	
+}
+.nav-item a:hover{
+	color:white;
+
+}
+.shortcuts:hover, .shortcuts a:hover{
+	background-color:blue;
+	color:white;
+}
+#inboxNav li{
+	border-radius:5px;
+	box-shadow:3px 6px 6px 3px #9ec3ff;
+	padding:2px;
+	margin:10px;
+	border:2px solid black;
+}
+
+.hr{
+	height: 30px;
+	width:100%;
+}
+.myDiv{
+	border:0.2em solid white;
+	background-color: white;
+	border-radius: 5px;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.navbar{
+	padding:0 !IMPORTANT;	
+}
+.navbar-items{
+	line-height:10px !IMPORTANT;
+}
+.navbar-items{
+	padding-bottom:50px !IMPORTANT;
+}
+
+.small{
+	font-size:small;
+}
+.imgCenter{
+	display:block;
+	margin:auto;
+}
+/* @media screen and (max-width: 600px) {
+	.main-form {
+	width:80%;
+	}
+} */
+@media screen and (max-width:800px) {
+	body{
+		margin:0;
+		padding:0;
+	}
+	.navbar-expand{
+		font-size:small;
+	}
+	.nav-link, .navbar-nav .nav-link, .navbar-expend .nav-link{
+	padding:0 !IMPORTANT;	
+}
+	#inboxNav{
+	padding:0 !IMPORTANT;
+	justify-content:center !IMPORTANT;
+	width:45%;
+	margin:auto;
+}
+
+	#inboxNav li{
+		border-radius:5px;
+		box-shadow: none;
+		padding:0 !IMPORTANT;
+		margin:0;
+		border:2px solid black;
+	}
+	.shortcuts{
+		display: inline;
+		margin-bottom:15px;
+		text-align:center;
+		font-size:20px;
+		height:50px;
+		border-radius:5px;
+		width:100px;
+		float:none;
+		background-color:#7aadff;
+}
+	.shortcuts a{
+		font-size:12px !IMPORTANT;
+	}
+	.main-form {
+		width:80%;
+	}
+}
