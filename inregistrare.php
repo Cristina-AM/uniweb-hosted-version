@@ -32,7 +32,7 @@
 			telefon, localitate, data_nasterii, gen, tip_cont) VALUES ( '$nume', '$prenume', '$username', '$email',
 			MD5('$parola'), '$cnpUser', '$telefon', '$localitate', '$dataN', '$gen', '$tipCont'
 			)";
-			$resultUser = $conn->query($newUserSQL); // mysqli_query($conn,$newUserSQL);
+			$resultUser = $conn->query($newUserSQL); 
 			if($resultUser){
 				echo "
 				<div class='row'>
